@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+// go包名
+option go_package = "./four_methods_pb";
+
+package protobuf;
+
+service Demo{
+  // 单向调用
+  rpc UnaryRPC (DemoRequest) returns (DemoResponse) {}
+  // 服务流模式
+  rpc ServerStreamRPC (DemoRequest) returns (stream DemoResponse) {}
+  // 客户端流模式
+  rpc ClientStreamRPC (stream DemoRequest) returns (DemoResponse) {}
+  // 双向流模式
+  rpc BiStreamRPC (stream DemoRequest) returns (stream DemoResponse) {}
+}
+
+message DemoRequest{
+  string data=1;
+}
+
+message DemoResponse{
+  string data=1;
+}
+
+// cmd line:
+// grpc-demo/src/four_methods 目录下
+// protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative protobuf/four_methods.proto
