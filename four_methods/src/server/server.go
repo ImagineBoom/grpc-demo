@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	pb "grpc-demo/src/four_methods/protobuf"
+	pb "grpc-demo/four_methods/src/protobuf"
 	"io"
 	"log"
 	"net"

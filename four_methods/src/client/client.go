@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	pb "grpc-demo/src/four_methods/protobuf"
+	pb "grpc-demo/four_methods/src/protobuf"
 	"io"
 	"log"
 	"sync"
