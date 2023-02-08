@@ -33,9 +33,9 @@
     },
     {
       "name": "fixnum",
-      "rootUri": "file:///Users/leonardo/.pub-cache/hosted/pub.flutter-io.cn/fixnum-1.0.1",
+      "rootUri": "file:///Users/leonardo/.pub-cache/hosted/pub.flutter-io.cn/fixnum-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "googleapis_auth",
@@ -69,9 +69,9 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/leonardo/.pub-cache/hosted/pub.flutter-io.cn/js-0.6.5",
+      "rootUri": "file:///Users/leonardo/.pub-cache/hosted/pub.flutter-io.cn/js-0.6.7",
       "packageUri": "lib/",
-      "languageVersion": "2.16"
+      "languageVersion": "2.19"
     },
     {
       "name": "lints",
@@ -134,7 +134,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-02-02T01:31:08.894944Z",
+  "generated": "2023-02-07T09:34:31.027712Z",
   "generator": "pub",
-  "generatorVersion": "2.18.7"
+  "generatorVersion": "2.19.1"
 }
